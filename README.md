@@ -2,6 +2,9 @@
 
 A comprehensive AI-powered customer communication system built with React, implementing advanced prompt engineering techniques for automated customer support.
 
+### Here is the Vercel url = https://ai-customer-assist-471yumj5t-john-fahariyas-projects.vercel.app/ 
+
+
 ## 🚀 Project Overview
 
 This project implements the "Improving Customer Communication with Generative AI" concept, featuring:
@@ -281,5 +284,6 @@ For questions or issues:
 **Module**: AI Excellence with Creative Prompting Techniques  
 **Project**: Improving Customer Communication with Generative AI
 
-#   C u s t o m e r A I - A s s i s t a n t  
+#   C u s t o m e r A I - A s s i s t a n t 
+ 
  
