@@ -1,0 +1,145 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.brand p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.icon {
+  color: #2563eb;
+  width: 32px;
+  height: 32px;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.mobile-menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  padding: 1rem;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .desktop-nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .mobile-menu-btn,
+  .mobile-nav {
+    display: none;
+  }
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #333;
+}
+
+.nav-button:hover {
+  background-color: #e0e7ff;
+}
+
+.nav-button.active {
+  background-color: #c7d2fe;
+  font-weight: bold;
+  color: #1d4ed8;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f9fafb;
+}
+
+.settings {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.settings h2 {
+  margin-bottom: 1rem;
+}
+
+.settings-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.settings-group label {
+  font-weight: 500;
+}
+
+.settings-group input[type='password'],
+.settings-group input[type='range'] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #555;
+  padding: 1rem;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
